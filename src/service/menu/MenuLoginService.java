@@ -8,7 +8,7 @@ import util.MenuUtil;
 import java.util.Scanner;
 
 public class MenuLoginService implements MenuLoginServiceInter {
-             boolean loogedIn;
+
     @Override
     public void processLogic() {
         Scanner sc = new Scanner(System.in);
